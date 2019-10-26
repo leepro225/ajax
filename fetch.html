@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <article>
+
+        </article>
+        <input type="button" value="fetch" onclick="
+            // fetch('css').then(function(response) {
+            //     response.text().then(function(text) {
+            //         document.querySelector('article').innerHTML = text;
+            //     })
+            // })
+
+            fetch('java').then(function(response) {
+                
+                if (response.status == '404') {
+                    alert('Not found');
+                }
+            });
+
+            
+        ">
+    </body>
+</html>
